@@ -1,0 +1,78 @@
+.bac{ 
+    MARGIN:0;
+    padding:0;
+  background-image: url("Capture2.PNG");
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  height: 100%; 
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+.box{ 
+  display:flex;
+  border:2px solid;
+  position:absolute;
+  left:600;
+  top:300;
+  width:400px;
+  height:190px;
+  background-color:white;
+  border-radius:3%;
+  color:lightcoral;
+  box-shadow:9px 8px 6px lightgray;
+  border-image-outset:1px;
+}
+.pil  {
+  font-size:20px;
+  font-family: Arial, Helvetica, sans-serif;
+  position:absolute;
+  left:130;
+  top:30;
+  text-shadow:1px lightslategray ;
+}
+.another{
+  border:2px solid;
+  display:flex;
+  position:absolute;
+  left:50;
+  top:75;
+  width:280px;
+  height:30px;
+  border-radius:4px;
+  box-shadow:4px 4px 6px lightgray;
+  border-image-outset:1px;
+}
+.done{
+  display:flex;
+  width:100px;
+  height:40px;
+  background-color:tomato;
+  position:absolute;
+  left:135px;
+  top:130px;
+  border-radius:20px;
+
+}
+.add{
+  color:White;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:19px;
+  position:absolute;
+  left:30;
+  top:8;
+  margin-top:0;
+}
+.bck{
+  width:90px;
+  height:39px;
+  background-color:red;
+  border-radius: 9px;
+  display: inline;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  text-align: center;
+  color: white;
+  font-size: 26px;
+}
